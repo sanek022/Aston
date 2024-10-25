@@ -1,7 +1,7 @@
 package HW2;
 
 public class Zombie extends Enemy{
-    int health;
+    private int health;
     private boolean wasDead = false;
     public Zombie(int health) {
         super(health);
